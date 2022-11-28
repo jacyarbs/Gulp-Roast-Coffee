@@ -1,0 +1,98 @@
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .words {
+    flex-grow: 4;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Noto Sans, Arial, sans-serif;
+  }
+  header {
+    background-color: #082b59;
+    border-bottom-style: double;
+    border-bottom-color: #d98555;
+    border-bottom-width: 12px;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 0.5;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+  li {
+    list-style-type: none;
+    color: #f2f2f2;
+    margin: 1rem;
+  }
+  .footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5rem;
+    background-color: #082b59;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-top-style: double;
+    border-top-color: #d98555;
+    border-top-width: 12px;
+  }
+  h1 {
+    font-family: Abril Fatface;
+  }
+  h2 {
+    font-family: Abril Fatface;
+    font-weight: 100;
+    color: gray;
+  }
+  main {
+    background-image: "media/images/gulp-bottom-beans.jpg";
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .mybutton {
+    width: 150px;
+    height: 20px;
+    background: #131D26;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .contactus {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  /* links */
+  a:link {
+    color: #D98555;
+  }
+  a:visited {
+    color: gray;
+  }
+  a:hover {
+    color: #1777f5;
+  }
+  a:active {
+    color: blue;
+  } 
+  
